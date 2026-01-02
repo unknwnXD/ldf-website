@@ -370,11 +370,10 @@ body {
   align-items: center;
   justify-content: center;
   background: #fafafa;
-  font-size: 14px;
-  color: #555;
-  transition: all 0.25s ease;
-  margin-bottom: 10%;
+  padding: 12px;
+  overflow: hidden; 
 }
+
 
 .sponsor-card:hover {
   background: #fff;
@@ -383,14 +382,18 @@ body {
 
 .sponsor-card img {
   max-height: 40px;
-  max-width: 80%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
   object-fit: contain;
   filter: grayscale(100%);
   opacity: 0.85;
 }
 
+
 .sponsor-card:hover img {
   filter: grayscale(0%);
   opacity: 1;
 }
+
 
